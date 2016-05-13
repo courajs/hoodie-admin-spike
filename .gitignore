@@ -9,6 +9,7 @@
 /bower_components
 
 # misc
+.hoodie
 /.sass-cache
 /connect.lock
 /coverage/*

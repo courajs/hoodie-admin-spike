@@ -16,8 +16,7 @@ var url = require('url');
 var proxy = require('http-proxy-middleware');
 
 var options = {
-  port: 4201,
-  inMemory: true
+  port: 4201
 }
 
 

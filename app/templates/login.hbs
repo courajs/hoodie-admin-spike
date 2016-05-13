@@ -1,0 +1,7 @@
+{{currentError}}
+<form>
+  <label>Password:
+    {{input type='password' value=currentPasswordValue}}
+  </label>
+</form>
+<button {{action 'signIn' currentPasswordValue}}>Sign in</button>

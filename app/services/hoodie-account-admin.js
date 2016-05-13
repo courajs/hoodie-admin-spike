@@ -22,5 +22,6 @@ export default Ember.Service.extend({
     return this.admin.isSignedIn();
   },
 
-  username: alias('admin.username')
+  username: alias('admin.username'),
+  accounts: alias('admin.accounts')
 });

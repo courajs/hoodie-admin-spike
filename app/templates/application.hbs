@@ -1,2 +1,10 @@
 This is the hoodie admin app
+
+<form>
+  <label>Password:
+    {{input type='password' value=currentPasswordValue}}
+  </label>
+</form>
+<button {{action 'signIn'}}>Sign in</button>
+
 {{outlet}}

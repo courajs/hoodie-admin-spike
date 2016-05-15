@@ -3,7 +3,8 @@ import Ember from 'ember';
 const {
   Route,
   inject: { service },
-  get
+  get,
+  set
 } = Ember;
 
 export default Route.extend({

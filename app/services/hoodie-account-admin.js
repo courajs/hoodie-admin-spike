@@ -1,3 +1,4 @@
+/* global AccountAdmin */
 import Ember from 'ember';
 
 const {
@@ -7,7 +8,7 @@ const {
 export default Ember.Service.extend({
   init() {
     this._super(...arguments);
-    this.admin = new AccountAdmin({url: '/hoodie/account/api'})
+    this.admin = new AccountAdmin({url: '/hoodie/account/api'});
   },
 
   signIn({username, password}) {
@@ -15,7 +16,7 @@ export default Ember.Service.extend({
   },
 
   signOut() {
-    return this.admin.signOut()
+    return this.admin.signOut();
   },
 
   isSignedIn() {

@@ -1,7 +1,7 @@
 <p>Here are the accounts:</p>
 <ul>
   {{#each model as |account|}}
-    <li>{{account.username}}</li>
+    <li>{{account-details account=account}}</li>
   {{/each}}
 </ul>
 

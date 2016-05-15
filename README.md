@@ -1,7 +1,8 @@
 # Hoodie-admin
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is the admin UI for the [Hoodie](http://hood.ie) project. See [the
+roadmap](https://github.com/gr2m/milestones/issues/90#issuecomment-219299636)
+for progress.
 
 ## Prerequisites
 
